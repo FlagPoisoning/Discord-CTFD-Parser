@@ -37,7 +37,7 @@ Create a category named ``CTF`` by default *(bot.py line 18)*:
 ## Installation :
 
 ```bash
-git clone https://github.com/FlagPoisoning/Discord-CTFD-Parser/Discord-CTFD-Parser.git
+git clone https://github.com/FlagPoisoning/Discord-CTFD-Parser.git
 cd Discord-CTFD-Parser
 python3 -m pip install -r requirements.txt
 python3 bot.py
