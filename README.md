@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/badge/Version-1.1-blue.svg">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/badge/Version-1.5-blue.svg">
 </p>
 
 # Discord bot CTFD-Thread-Parser
