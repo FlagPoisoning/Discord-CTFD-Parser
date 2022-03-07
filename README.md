@@ -32,7 +32,7 @@ This tools is used to create automatically discord threads by scraping ctfd plat
 ## Usage:
 Create a category named ``CTF`` by default *(bot.py line 18)*:
 
-![All text](./.github/ctf.png)
+![All text](./github/ctf.png)
 
 ## Installation :
 
@@ -45,7 +45,7 @@ python3 bot.py
 *(Don't forget to place your Bot [token](https://discord.com/developers/applications))*
 
 ## Screenshot:
-![Alltext](./.github/screenshot.png)
+![Alltext](./github/screenshot.png)
 
 ## Demo :
 https://user-images.githubusercontent.com/61807609/154075676-ae335753-e326-44d0-a0cd-261e431caa30.mp4
