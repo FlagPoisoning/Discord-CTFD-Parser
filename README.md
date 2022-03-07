@@ -44,6 +44,15 @@ python3 bot.py
 ```
 *(Don't forget to place your Bot [token](https://discord.com/developers/applications))*
 
+OR using Docker:
+```bash
+- put Your token in DockerFile
+- python3 deploy.py install
+
+In Docker : 
+./install.sh
+```
+
 ## Screenshot:
 ![Alltext](./github/screenshot.png)
 
