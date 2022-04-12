@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/badge/Version-1.5-blue.svg">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/badge/Version-2.0-blue.svg">
 </p>
 
 # Discord bot CTFD-Thread-Parser
@@ -7,30 +7,49 @@
 # Description:
 
 This tools is used to create automatically discord threads by scraping ctfd plateform and collecting name , category , description and points of challenges.
+It can also analyze files with common ctf tools.There are also other useful options such as a team auto-register ,cypher detector or a factoring script for crypto challenges
 
 ## Commands :
 ```
-- ?CreateCTFD : Create a channel + threads sorted by name
-  |_> Usage: ?CreateCTFD  <Username> <Password> <Url> <ChannelName>
+?CreateCTFD <Username> <Password> <Url> <ChannelName>
+	|>Create a channel + threads sorted by name
 
-- ?flagged : Store the flag + renamme the challenge thread
-  |_> Usage: ?flagged ThisIsMySuperFlag (in challenge thread)
+?flagged ThisIsMySuperFlag (in challenge thread)
+	|>Store the flag + renamme the challenge thread
 
-- ?end : Moove the ctfd channel in other category
-  |_> Usage: ?end (in ctfd challenge)
+?end (in ctfd challenge)
+	|>Move the ctfd channel in other category
 
-- ?gen : Generate new random credentials
-  |_> Usage: ?gen (in ctfd challenge)
+?gen <url>
+	|>Generate new random credentials
 
-- ?format : change format flag
-  |_> Usage: ?format flag
+?format <Format Flag>
+	|>Change format flag
 
-- ?token : set token account to login & bypass recaptcha
-  |_> Usage: ?token mytoken
+?cypher <hash>
+	|>Analyse cypher provided
+
+?facto <number> (optional: <timeout(min)>)
+	|>Try to factorize the number provided
+
+?token <mytoken>
+	|>Set token account to login & bypass recaptcha
+
+?change
+	|>Display menu to change the selected Ctf
+
+?next <days>
+	|>Search for futurs ctf on ctftime (default days=7)
+
+?analyse (optional: <link/filename>)
+	|>Analyse files of the selected challenges
+
+?help
+	|>Display this menu
 ```
 
 ## Usage:
-Create a category named ``CTF`` by default *(bot.py line 18)*:
+*?CreateCTFD "The Fool" MyP@ssW0r4!  https://ctf.example.com name_of_channel format_flag*:
 
 ![All text](./github/ctf.png)
 
@@ -55,6 +74,11 @@ In Docker :
 
 ## Screenshot:
 ![Alltext](./github/screenshot.png)
+
+![Alltext](./github/screenshot2.png)
+
+![Alltext](./github/screenshot3.png)
+
 
 ## Demo :
 https://user-images.githubusercontent.com/61807609/154075676-ae335753-e326-44d0-a0cd-261e431caa30.mp4
