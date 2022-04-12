@@ -49,9 +49,13 @@ It can also analyze files with common ctf tools.There are also other useful opti
 ```
 
 ## Usage:
-*?CreateCTFD "The Fool" MyP@ssW0r4!  https://ctf.example.com name_of_channel format_flag*:
+- *?CreateCTFD "The Fool" MyP@ssW0r4!  https://ctf.example.com name_of_channel format_flag*:
+- *?genteam http://127.0.0.1:80/  example.json*
+- *?facto 1164944854...7013*
+- *?next 5*
+- *?analyse hiddenflag.png*
+- *?cypher SGVsbG9Xb3JsZA==*
 
-![All text](./github/ctf.png)
 
 ## Installation :
 
@@ -73,7 +77,8 @@ In Docker :
 ```
 
 Config Example for Team Registration :
-__Content:__ ./config/example.json
+
+__Content:__  ./config/example.json
 ```
 {
     "team":"TeamExample",
