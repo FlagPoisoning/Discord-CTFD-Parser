@@ -29,6 +29,6 @@ if(os.path.isfile('Dockerfile')):
 			os.system('docker build -t discordbot .')
 			os.system('docker run -d --name CTFDBot -p {}:{} discordbot '.format(port, port))
 		else:
-			os.system('docker run -d --name CTFDBot -p {}:{} discordbot '.format(port, port))
+			os.system('docker start discordbot')
 	else:
 			print("Syntax : python3 deploy.py install/run")

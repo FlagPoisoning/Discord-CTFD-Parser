@@ -6,8 +6,7 @@ ENV DOMAIN bot
 ENV HTTP_PORT 80
 ENV HTTPS_PORT 443
 ENV SSH_PORT 22
-
-ENV DiscordToken Put-Your-Token-Here
+ENV DISCORD_TOKEN PUT-YOUR-DISCORD-BOT-TOKEN-HERE
 
 ENV DEBIAN_FRONTEND=noninteractive
 #======================================================
