@@ -72,10 +72,24 @@ In Docker :
 ./install.sh
 ```
 
+Config Example for Team Registration :
+__Content:__ ./config/example.json
+```
+{
+    "team":"TeamExample",
+    "teampwd":"123IamRo0t",
+    "users": [
+        ["PlayerNumber1","playerNumber1@protonmail.com","Player1Password"],
+        ["PlayerNumber2","playerNumber2@protonmail.com","Player2Password"],
+        ["PlayerNumber3","playerNumber3@protonmail.com","Player3Password"]
+    ]
+}
+```
+![Alltext](./github/screenshot2.png)
+
+
 ## Screenshot:
 ![Alltext](./github/screenshot.png)
-
-![Alltext](./github/screenshot2.png)
 
 ![Alltext](./github/screenshot3.png)
 
