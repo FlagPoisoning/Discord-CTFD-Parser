@@ -96,7 +96,7 @@ __Content:__  ./config/example.json
 ## Screenshot:
 ![Alltext](./github/screenshot.png)
 
-![Alltext](./github/screenshot3.png)
+![Alltext](./github/screenshot4.png)
 
 
 ## Demo :
