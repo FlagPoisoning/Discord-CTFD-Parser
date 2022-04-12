@@ -1,0 +1,3 @@
+/c/Discord_bot-CTFD-Thread-Parser-main/analysis/AudioStego/build/CMakeFiles/rebuild_cache.dir
+/c/Discord_bot-CTFD-Thread-Parser-main/analysis/AudioStego/build/CMakeFiles/edit_cache.dir
+/c/Discord_bot-CTFD-Thread-Parser-main/analysis/AudioStego/build/CMakeFiles/hideme.dir
