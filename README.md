@@ -4,4 +4,4 @@
 
 # Discord bot CTFD-Thread-Parser
 
-Mooved to : https://github.com/Vozec/Discord-CTFD-Parser
+Moved to : https://github.com/Vozec/Discord-CTFD-Parser
